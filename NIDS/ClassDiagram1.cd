@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WindowsFormsApplication1.ActiveConnections" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAABAAAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>ActiveConnections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Client1" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>GAUAQAIUACABUjQICNSARAByOfKuJgdUhb8CghAIV2Q=</HashCode>
+      <FileName>Client 1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.FTServerCode11" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAIAAgCACCAAAAAAIAgAAAAECAAAAAAAA=</HashCode>
+      <FileName>Client 1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.CurrentSystemInfo" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAABAAAACAAAACAAAIAAAAAEAQAABAAAA=</HashCode>
+      <FileName>CurrentSystemInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.CurrentSystemNetSpeed" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAABAIAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CurrentSystemNetSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.DataCls" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>DataCls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.DataSend" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACUAQAAEBCAAUBAACECABABiGQIqBgdAlEgCghIIFgA=</HashCode>
+      <FileName>DataSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.FTServerCode113" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAAAAIAAgCACCAAAAAAIAgAAAAECAAAAAAAA=</HashCode>
+      <FileName>DataSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.DataSndRecFrm" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAAAiAABAAAAACAAAACEAAIAAAAEMAQEIBAAAA=</HashCode>
+      <FileName>DataSndRecFrm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Form1" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACACAIEAACACAAAYAACAAAACAMw7AAAAwHQPAAAAQAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Form2" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAACAAAACAAAIAAAAEEAAAAAAAAA=</HashCode>
+      <FileName>Form2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.MacAddress" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAEAAAAAAABAAAAAAADAAAAAEAAAAA=</HashCode>
+      <FileName>MacAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Server" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>zwQAAAAdACABgBAAAACAADACAAAAIARBgDQAACIAIDA=</HashCode>
+      <FileName>mainfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.FTServerCode1" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAQAACAYAQgCACCBBAgEAIAigEIAQGCgQAIRBA=</HashCode>
+      <FileName>mainfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.MainFrm" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>FwAAAgAAAGEAABAAIACQAggKCAAQBACAABEAAAABAQA=</HashCode>
+      <FileName>MainFrm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.NetAllDetails" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIACACACAAEAAACgAAACAAAYAAAAAGAAAIAAAgA=</HashCode>
+      <FileName>NetAllDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.MainForm" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAQAACAAABAABACAEEACBEAAAABAAgAARAEIAAA=</HashCode>
+      <FileName>NS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Program" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.ReceiveData" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAACAAABAAAACAAABCIAAIAAREEAAAgAAAAAA=</HashCode>
+      <FileName>ReceiveData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.FTServerCode112" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAQAACAYAQgCACCBBAkEAIAigEIAQGCgQAIRBA=</HashCode>
+      <FileName>ReceiveData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Report_1" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>/wAAAAAAACAAABAAAACgAAACAAAAAAAAACAAAAAAADA=</HashCode>
+      <FileName>Report 1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.UkkonsALg" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UkkonsALg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.ViewSend" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQCABAAFACAAAACAAAAAAAAACAAIQAAAAA=</HashCode>
+      <FileName>ViewSend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTServerCode2" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEABAgAAACAYAAgCACCBBAgEAIAigEIASGCgQAIRCA=</HashCode>
+      <FileName>mainfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTServerCode3" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEABAAAAACAYAAgCACCBBAhEEIAigEIAUGCgQAIRAA=</HashCode>
+      <FileName>mainfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Properties.Resources" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApplication1.Properties.Settings" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

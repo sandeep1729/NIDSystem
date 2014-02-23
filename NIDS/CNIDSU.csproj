@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1FCDD3F-66C8-48BF-A72A-3298999C99C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveConnections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveConnections.Designer.cs">
+      <DependentUpon>ActiveConnections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllDataTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllDataTransfer.designer.cs">
+      <DependentUpon>AllDataTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client 1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client 1.designer.cs">
+      <DependentUpon>Client 1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentSystemInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentSystemInfo.designer.cs">
+      <DependentUpon>CurrentSystemInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentSystemNetSpeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentSystemNetSpeed.designer.cs">
+      <DependentUpon>CurrentSystemNetSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataCls.cs" />
+    <Compile Include="DataSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSend.Designer.cs">
+      <DependentUpon>DataSend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSndRecFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSndRecFrm.Designer.cs">
+      <DependentUpon>DataSndRecFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MacAddress.cs" />
+    <Compile Include="mainfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainfile.designer.cs">
+      <DependentUpon>mainfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetAllDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetAllDetails.Designer.cs">
+      <DependentUpon>NetAllDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NS.designer.cs">
+      <DependentUpon>NS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiveData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceiveData.Designer.cs">
+      <DependentUpon>ReceiveData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report 1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report 1.designer.cs">
+      <DependentUpon>Report 1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuspectIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuspectIP.designer.cs">
+      <DependentUpon>SuspectIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UkkonsALg.cs" />
+    <Compile Include="ViewSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSend.designer.cs">
+      <DependentUpon>ViewSend.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActiveConnections.resx">
+      <DependentUpon>ActiveConnections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllDataTransfer.resx">
+      <DependentUpon>AllDataTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client 1.resx">
+      <DependentUpon>Client 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentSystemInfo.resx">
+      <DependentUpon>CurrentSystemInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentSystemNetSpeed.resx">
+      <DependentUpon>CurrentSystemNetSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSend.resx">
+      <DependentUpon>DataSend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSndRecFrm.resx">
+      <DependentUpon>DataSndRecFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainfile.resx">
+      <DependentUpon>mainfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetAllDetails.resx">
+      <DependentUpon>NetAllDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NS.resx">
+      <DependentUpon>NS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ReceiveData.resx">
+      <DependentUpon>ReceiveData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report 1.resx">
+      <DependentUpon>Report 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuspectIP.resx">
+      <DependentUpon>SuspectIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSend.resx">
+      <DependentUpon>ViewSend.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
